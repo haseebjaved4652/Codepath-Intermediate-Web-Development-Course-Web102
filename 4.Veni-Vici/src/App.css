@@ -1,0 +1,83 @@
+/* Contents */
+.app-container {
+  display: flex; 
+  height: 100vh; 
+  width: 100vw;
+  justify-content: space-between; 
+}
+
+.main-content {
+  flex: 2;
+  padding: 30px;
+  background-image: url("assets/bg.jpg");
+  color: #704524;
+  overflow: hidden;
+}
+
+.main-container {
+  text-align: center;
+  background-color: rgba(239, 226, 229, 0.9); /* 50% transparency */
+  height: 95vh;
+  padding: 0.5rem;
+  border-radius: 3rem;
+  overflow-y: auto;
+}
+
+.history-section {
+  flex: 0.8;
+  background-color: #858bad;
+  color: #FAEDF0;
+  padding: 5px;
+  overflow-y: auto; /* Enable vertical scrolling */
+  text-align: center;
+}
+
+.ban-list {
+  flex: 0.8;
+  background-color: #bec089;
+  color: #FAEDF0;
+  padding: 15px;
+  overflow-y: auto; /* Enable vertical scrolling */
+  text-align: center;
+}
+
+/* Additional styling for buttons, titles, etc., can be added here */
+button {
+  padding: 1.2rem 3rem !important;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-right: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 1.5rem !important;
+
+  font-size: 1.7em !important;
+  font-family: 'Inter', sans-serif !important;
+  font-weight: 700 !important;
+  color: #704524;
+}
+
+/* Texts */
+h1 {
+  font-size: 2em;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 1.8em;
+  font-weight: 700; 
+}
+
+h3 {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+p {
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+.topic-text {
+  margin-top: rem;
+}
