@@ -4,7 +4,7 @@ Submitted by: **Haseeb Javed**
 
 This web app: **randomly browses images of dogs**
 
-Time spent: **9** hours spent in total
+Time spent: **9** hours spent in total.
 
 ## Required Features
 
