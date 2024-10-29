@@ -11,7 +11,7 @@ Time spent: **4** hours spent in total
 The following **required** functionality is completed:
 
 - [X] **The user can enter their guess in a box before seeing the flipside of the card**
-- [X] **Clicking on a submit button shows visual feedback about whether the answer was correct or incorrect**
+- [X] **Clicking on a submit button shows visual feedback about whether the answer was correct or incorrect.**
 - [X] **A back button is displayed on the card and can be used to return to the previous card in a set sequence**
 - [X] **A next button is displayed on the card and can be used to navigate to the next card in a set sequence**
 
