@@ -1,0 +1,204 @@
+
+/* Components */
+.navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0; 
+  width: 100vw;
+  z-index: 1000;
+}
+
+.container {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.fixed-size-card {
+  width: 400px;
+  height: auto;
+  margin: auto;
+  position: relative;
+  padding-bottom: 1rem;
+}
+
+.fixed-size-card .card-img-top {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.horizontal-scroll {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+  padding: 20px 0;
+}
+
+.horizontal-scroll::-webkit-scrollbar {
+  display: none; /* Hide scrollbar */
+}
+
+.card {
+  flex: 0 0 auto;
+  margin-right: 3rem;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1050;  /* Set z-index lower than modal */
+}
+
+.success-alert {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1050;
+}
+
+
+/* Pop up Single Page */
+.modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+}
+
+.modal-content {
+  position: relative;
+  background-color: white;
+  padding: 40px;
+  border-radius: 5px;
+  width: 60%;
+}
+
+#new-post {
+  width: 100% !important;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.post-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.post-image-container {
+  flex: 1;
+  margin-right: 3rem;
+  text-align: center;
+}
+
+.post-image {
+  width: 100%;
+  height: auto;
+}
+
+.post-info {
+  flex: 2;
+}
+
+.upvote {
+  bottom: 0;
+  right: 0;
+  margin-top: 1rem;
+  margin-bottom: -1rem;
+}
+
+.add-comment-btn {
+  margin-top: 1rem;
+}
+
+.comment-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-comment-btn {
+  align-self: flex-end;
+  margin-top: 1rem;
+}
+
+.image-placeholder {
+  display: none;
+}
+
+/* PostModal */
+.comments-container {
+  max-height: 10rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 10px;
+  margin-bottom: 2rem;
+}
+
+blockquote {
+  margin-bottom: 0; /* Remove default bottom margin */
+}
+blockquote p {
+  margin-bottom: 0; /* Remove default bottom margin for paragraph inside blockquote */
+}
+.blockquote-footer {
+  font-size: 12px; /* Adjust font size of the footer */
+  font-style: italic; /* Make the footer text italic */
+}
+
+.comments-container dl {
+  margin-bottom: 0.2rem;
+}
+
+.comments-container dt {
+  font-weight: bold;
+}
+
+.comments-container dd {
+  margin-left: 0;
+}
+
+/* Texts */
+.custom-color {
+  color: black !important;
+}
+
+.card-text {
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.post-text {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.text-left {
+  text-align: left;
+}
