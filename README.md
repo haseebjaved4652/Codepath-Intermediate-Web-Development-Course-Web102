@@ -3,12 +3,12 @@
 ### Full Stack Engineer Trainee |  Sep 2024 – Nov 2024  
 
 
-## 🛠 Course Description  
+## 🕸 Course Description  
 A 3-month, project-based course focused on building modern full-stack applications using React, Node.js, REST APIs, and frontend frameworks. Each project emphasized real-world features like interactivity, authentication, and data persistence.
 
 ---
 
-## 💼 Project Highlights
+## 🔍 Project Highlights
 
 - **Community Board**  
   Built a responsive React app showcasing upcoming Hackathons using reusable card components and props.
